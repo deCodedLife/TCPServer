@@ -19,5 +19,5 @@ install(TARGETS hhServerTCP
 
 target_include_directories(
     hhServerTCP PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/tcp
+    ${CMAKE_CURRENT_SOURCE_DIR}/TCPLib
 )
